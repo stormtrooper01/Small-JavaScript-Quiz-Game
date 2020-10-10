@@ -34,3 +34,25 @@ body {
     background-image: -o-linear-gradient(left, #d9d9d9, #5c5c5c, #d9d9d9);
     background-image: linear-gradient(to right, #d9d9d9, #5c5c5c, #d9d9d9);
 }
+
+#question {
+    font-family: monospace;
+    font-size: 25px;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.variants {
+    margin-top: 30px;
+}
+
+#b0, #b1, #b2, #b3 {
+    background-color: rgba(214, 191, 186, 0.9);
+    width: 300px;
+    margin: 10px 30px 20px 50px;
+    padding: 10px 10px;
+    font-size: 25px;
+    color: #5c5c5c;
+    border: 2px solid #5c5c5c;
+    border-radius: 10px;
+}
