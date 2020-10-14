@@ -56,3 +56,25 @@ body {
     border: 2px solid #5c5c5c;
     border-radius: 10px;
 }
+#b0:hover, #b1:hover, #b2:hover, #b3:hover {
+    cursor: pointer;
+    background-color: rgba(177, 160, 156, 0.9);
+}
+
+#b0:focus, #b1:focus, #b2:focus, #b3:focus {
+    outline: 0;
+}
+
+#progress {
+    font-size: 20px;
+    color: #525252;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#score {
+    text-align: center;
+    font-size: 30px;
+    color: #3e3d3d;
+}
